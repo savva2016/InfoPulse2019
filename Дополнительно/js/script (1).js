@@ -27,8 +27,8 @@
 //  break;
 // }
 
-for (var i = 0 ; i = 63 ; i + 7) {
-	console.log(i)
+for (var i = 0 ; i <= 63 ; i*=7) {
+	console.log(`${i} * 7 = ${i*7}`)
 	
 }
 
