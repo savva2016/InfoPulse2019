@@ -1,4 +1,3 @@
-$("span.close").click(function(event) {
-	event.preventDefault();
-	$(this).parent().remove()
+$("div").click(function(event) {
+	$(this).find('.close').addClass('border')
 });
